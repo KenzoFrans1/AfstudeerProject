@@ -11,19 +11,16 @@
 
 // ===== CONFIGURATION SECTION =====
 // WiFi credentials
-// const char* ssid = "telenet-1683985";
-// const char* password = "Ffncutzz8z5X";
-
-const char* ssid = "IoT2";
-const char* password = "KdGIoT69!";
+const char* ssid = "";
+const char* password = "";
 
 // WEB AUTHENTICATION CREDENTIALS
-const char* web_username = "admin";
-const char* web_password = "admin"; // CHANGE THIS!
+const char* web_username = "";
+const char* web_password = "";
 
 // Telegram settings
-const char* BOTtoken = "7574163261:AAF1WG7Cy4XTxb28mc-4X3QUOI4a2GMiRSo";
-const char* CHAT_ID = "6741274207";
+const char* BOTtoken = "";
+const char* CHAT_ID = "";
 
 // Camera pins (AI Thinker ESP32-CAM module)
 #define PWDN_GPIO_NUM     32
